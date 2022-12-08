@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationMap": true,
+    "resolveJsonModule": true,
+    "declarationDir": "dist"
+  },
+  "include": ["./src"],
+  "exclude": ["**/*.spec.*", "**/*.test.*", "**/*.stories.*"]
+}
