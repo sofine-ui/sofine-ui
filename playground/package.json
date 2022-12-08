@@ -1,0 +1,16 @@
+{
+  "name": "playground",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.6.3"
+  },
+  "devDependencies": {
+    "vite-plugin-solid": "^2.4.0"
+  }
+}
