@@ -3,7 +3,6 @@
     "target": "esnext",
     "module": "esnext",
     "lib": ["dom", "dom.iterable", "esnext", "scripthost"],
-    "newLine": "LF",
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -15,9 +14,13 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
     "strict": true,
     "sourceMap": true,
-    "types": ["solid-js", "vite/client", "node"]
+    "types": ["solid-js", "vite/client", "node"],
+    "paths": {
+      "sofine-ui": [ "./packages/sofine-ui/src/index.ts" ],
+    }
   },
   "exclude": ["node_modules"]
 }

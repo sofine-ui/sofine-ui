@@ -1,20 +1,7 @@
 {
   "name": "sofine-ui",
-  "private": false,
-  "version": "0.0.1",
-  "type": "module",
+  "version": "0.0.0",
   "description": "A SolidJS UI Library, inspired by Arco Design and Ant Design, powered by Unocss.",
-  "author": "xbmlz <https://github.com/xbmlz>",
-  "funding": "https://github.com/sponsors/xbmlz",
-  "homepage": "https://sofine-ui.netlify.app",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sofine-ui/sofine-ui.git",
-    "directory": "packages/sofine-ui"
-  },
-  "bugs": {
-    "url": "https://github.com/sofine-ui/sofine-ui/issues"
-  },
   "keywords": [
     "solidjs",
     "arco design",
@@ -27,31 +14,41 @@
     "solid-ui-library",
     "solid-ui-components"
   ],
+  "homepage": "https://sofine-ui.netlify.app",
+  "bugs": {
+    "url": "https://github.com/sofine-ui/sofine-ui/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofine-ui/sofine-ui.git",
+    "directory": "packages/sofine-ui"
+  },
+  "funding": "https://github.com/sponsors/xbmlz",
   "license": "MIT",
-  "main": "./dist/index.cjs",
+  "author": "xbmlz <https://github.com/xbmlz>",
+  "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "require": "./dist/index.js"
     }
   },
   "files": [
     "dist",
     "volar.d.ts"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "dev": "vite build --watch",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint . --fix"
+    "build": "vite build"
   },
   "peerDependencies": {
-    "solid-js": "^1.6.3"
+    "solid-js": "^1.6.3",
+    "solid-styled-components": "^0.28.5"
   },
-  "dependencies": {}
+  "publishConfig": {
+    "access": "public"
+  }
 }

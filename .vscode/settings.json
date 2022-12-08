@@ -1,11 +1,6 @@
 {
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.linkedEditing": true,
+  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true,
-    "source.organizeImports": true
-  },
-  "eslint.format.enable": true
+    "source.fixAll.eslint": true
+  }
 }

@@ -10,5 +10,8 @@
   "dependencies": {
     "sofine-ui": "workspace:*",
     "solid-js": "^1.6.3"
+  },
+  "devDependencies": {
+    "@unocss/reset": "^0.44.5"
   }
 }
