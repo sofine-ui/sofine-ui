@@ -1,7 +1,7 @@
 {
   "name": "sofine-ui",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "A SolidJS UI Library, inspired by Arco Design and Ant Design, powered by Unocss.",
   "author": "xbmlz <https://github.com/xbmlz>",
