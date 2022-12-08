@@ -3,6 +3,7 @@
     "target": "esnext",
     "module": "esnext",
     "lib": ["dom", "dom.iterable", "esnext", "scripthost"],
+    "newLine": "LF",
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

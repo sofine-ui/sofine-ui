@@ -1,9 +1,6 @@
 import { defineConfig } from 'vite'
-import Solid from 'vite-plugin-solid'
+import solidPlugin from 'vite-plugin-solid'
 
 export default defineConfig({
-  plugins: [
-    Solid()
-  ]
+  plugins: [solidPlugin()],
 })
-
